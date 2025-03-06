@@ -1,6 +1,6 @@
 export default function RealEstateLeverage() {
   return (
-    <div className="min-h-screen bg-[#1C1C1C] text-white p-4 md:p-6 lg:p-8">
+    <div className="w-full max-w-6xl mx-auto min-h-screen text-white p-4 md:p-6 lg:p-8">
       {/* Header Section */}
       <div className="max-w-7xl mx-auto space-y-4">
         <h2 className="text-sm uppercase tracking-wider">O QUE É?</h2>

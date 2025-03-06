@@ -24,7 +24,7 @@ export default function Plans() {
 
   return (
     <section className="py-12 px-4">
-      <div className="container mx-auto">
+      <div className="w-full max-w-6xl mx-auto">
         <div className="flex items-center justify-center md:justify-start">
           <h2 className="text-xl bg-[rgba(218,165,32,0.2)] text-[#DAA520] max-w-xs text-center py-2 px-2 rounded-lg">
             ESTRATÉGIA DE ALAVANCAGEM

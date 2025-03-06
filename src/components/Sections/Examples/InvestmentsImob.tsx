@@ -2,7 +2,7 @@ import CaseMaria from "./CaseMaria";
 
 export default function InvestmentsImob() {
   return (
-    <section className="py-12 px-4 max-w-7xl mx-auto">
+    <section className="py-12 px-4 max-w-6xl w-full mx-auto">
       <div className="container mx-auto text-center md:text-start">
         <div className="flex items-center justify-center md:justify-between mb-8">
           <h2 className="text-xl bg-[rgba(218,165,32,0.2)] text-[#DAA520] max-w-xs text-center py-2 px-2 rounded-lg">

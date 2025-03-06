@@ -1,15 +1,17 @@
 "use client";
 
-import FinancialLeverage from "@/components/FinancialLeverage";
+import FinancialLeverage from "@/components/Sections/FinancialLeverage";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header/Header";
-import Hero from "@/components/Hero";
-import InvestmentsImob from "@/components/Examples/InvestmentsImob";
-import Plans from "@/components/Plans";
-import Profile from "@/components/Profile";
-import RDStationForm from "@/components/RDStationForm";
-import RealEstateLeverage from "@/components/RealEstateLeverage";
-import InvestmentsFinan from "@/components/Examples/InvestmentsFinan";
+import Hero from "@/components/Sections/Hero";
+import InvestmentsImob from "@/components/Sections/Examples/InvestmentsImob";
+import Plans from "@/components/Sections/Plans";
+import Profile from "@/components/Sections/Profile";
+import RDStationForm from "@/components/Sections/RDStationForm";
+import RealEstateLeverage from "@/components/Sections/RealEstateLeverage";
+import InvestmentsFinan from "@/components/Sections/Examples/InvestmentsFinan";
+import Testimonials from "@/components/Sections/Testimonials";
+import Credit from "@/components/Sections/Credit";
 
 export default function Home() {
   return (
@@ -27,17 +29,25 @@ export default function Home() {
       >
         <Hero />
       </div>
-      <FinancialLeverage />
+      <div className="bg-[#1C1C1C]">
+        <FinancialLeverage />
+      </div>
       <InvestmentsFinan />
-      <RealEstateLeverage />
+      <div className="bg-[#1C1C1C]">
+        <RealEstateLeverage />
+      </div>
       <InvestmentsImob />
+      <Credit />
       <div id="planos de investimento">
         <Plans />
+      </div>
+      <div>
+        <Testimonials />
       </div>
       <div id="conheca">
         <Profile />
       </div>
-      <div id="contato">
+      <div id="contato" className="bg-[#272727]">
         <RDStationForm />
       </div>
       <Footer />
