@@ -95,7 +95,7 @@ const MobileMenu = () => {
             <motion.ul className="space-y-8 text-center">
               {[
                 "Início",
-                "Planos de investimento",
+                "Planos",
                 "Conheça",
                 // "Redes Sociais",
                 "Contato",

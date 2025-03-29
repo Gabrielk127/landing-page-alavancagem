@@ -38,7 +38,7 @@ export default function Home() {
       </div>
       <InvestmentsImob />
       <Credit />
-      <div id="planos de investimento">
+      <div id="planos">
         <Plans />
       </div>
       <div>

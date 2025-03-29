@@ -1,3 +1,5 @@
+import VideoFinance from "./VideoFinance";
+
 export default function FinancialLeverage() {
   return (
     <div className="w-full max-w-6xl mx-auto min-h-screen text-white p-4 md:p-6 lg:p-8">
@@ -10,8 +12,11 @@ export default function FinancialLeverage() {
         <p className="text-gray-300 max-w-3xl text-sm md:text-base">
           A alavancagem patrimonial financeira realizada com cotas de consórcio
           imobiliário onde a ideia principal é iniciar o consórcio e vender as
-          cotas quando contepladas.
+          cotas quando contempladas.
         </p>
+      </div>
+      <div>
+        <VideoFinance />
       </div>
 
       {/* Main Card */}

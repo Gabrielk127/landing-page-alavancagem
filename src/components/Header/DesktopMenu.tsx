@@ -5,7 +5,7 @@ import Image from "next/image";
 const DesktopMenu = () => {
   const menuItems = [
     { label: "Início", href: "#inicio" },
-    { label: "Planos de investimento", href: "#Planos de investimento" },
+    { label: "Planos", href: "#planos" },
     { label: "Conheça", href: "#conheca" },
     // { label: "Redes Sociais", href: "#redes" },
     { label: "Contato", href: "#contato" },
