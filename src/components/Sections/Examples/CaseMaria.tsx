@@ -6,7 +6,6 @@ import {
   HardHat,
   Home,
   TrendingUp,
-  CircleFadingArrowUp,
 } from "lucide-react";
 
 export default function CaseMaria() {
@@ -16,9 +15,8 @@ export default function CaseMaria() {
         <div className="bg-zinc-900 rounded-xl p-6 shadow-xl">
           <p className="text-xl md:text-xl pb-12">
             Maria Investiu em 02 cotas de consórcio imobiliário de{" "}
-            <span className="text-yellow-400 font-medium">R$150mil</span>{" "}
-            pagando mensalmente R$ 2.184,14 por{" "}
-            <span className="text-yellow-400 font-medium">R$300mil</span>
+            <span className="text-yellow-400 font-medium">R$300mil</span>{" "}
+            pagando mensalmente R$ 4.499,92
           </p>
           <div className="grid md:grid-cols-2 gap-6 items-center">
             <div className="relative overflow-hidden rounded-lg border border-zinc-800">
@@ -35,7 +33,7 @@ export default function CaseMaria() {
             </div>
 
             <div className="text-center space-y-4">
-              <p className="text-2xl md:text-4xl text-emerald-500">
+              {/* <p className="text-2xl md:text-4xl text-emerald-500">
                 Upgrade de 100%
               </p>
               <div className="relative w-32 h-32 mx-auto">
@@ -43,7 +41,7 @@ export default function CaseMaria() {
                   className="w-full text-emerald-200"
                   size={100}
                 />
-              </div>
+              </div> */}
               <p className="text-3xl md:text-5xl text-yellow-400 font-bold">
                 R$ 600mil
               </p>

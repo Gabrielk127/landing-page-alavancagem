@@ -6,19 +6,19 @@ export default function Plans() {
       name: "Starter",
       patrimony: "R$ 300.000,00",
       passiveIncome: "R$ 2.550,00",
-      monthlyInvestment: "R$ 1.092,07",
+      monthlyInvestment: "R$ 2.249,96",
     },
     {
       name: "Investor",
       patrimony: "R$ 600.000,00",
       passiveIncome: "R$ 5.100,00",
-      monthlyInvestment: "R$ 2.184,14",
+      monthlyInvestment: "R$ 4.499,92",
     },
     {
       name: "Private",
       patrimony: "R$ 1.500.000,00",
       passiveIncome: "R$ 12.750,00",
-      monthlyInvestment: "R$ 5.460,85",
+      monthlyInvestment: "R$ 11.249,80",
     },
   ];
 

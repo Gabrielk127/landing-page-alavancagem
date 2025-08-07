@@ -1,3 +1,4 @@
+import Image from "next/image";
 import VideoFinance from "./VideoFinance";
 
 export default function FinancialLeverage() {
@@ -22,14 +23,30 @@ export default function FinancialLeverage() {
       {/* Main Card */}
       <div className="max-w-7xl mx-auto mt-8 md:mt-12 bg-white rounded-3xl text-black p-6 md:p-8 lg:p-10">
         <div className="space-y-8">
-          <div>
-            <p className="text-sm font-medium uppercase tracking-wider text-gray-600">
-              PASSO A PASSO
-            </p>
-            <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mt-2">
-              Descubra como
-              <br className="hidden md:block" /> tudo funciona
-            </h3>
+          <Image
+            src="/logo-uniao.png"
+            alt="Logo União"
+            width={200}
+            height={100}
+            className="md:hidden mx-auto mb-12"
+          />
+          <div className="flex flex-row items-center md:justify-between">
+            <div>
+              <p className="text-sm font-medium uppercase tracking-wider text-gray-600">
+                PASSO A PASSO
+              </p>
+              <h3 className="text-xl md:text-2xl lg:text-3xl font-bold mt-2">
+                Descubra como
+                <br className="hidden md:block" /> tudo funciona
+              </h3>
+            </div>
+            <Image
+              src="/logo-uniao.png"
+              alt="Logo União"
+              width={200}
+              height={100}
+              className="hidden md:block"
+            />
           </div>
 
           {/* Steps */}
@@ -41,7 +58,7 @@ export default function FinancialLeverage() {
                   01
                 </div>
                 <h4 className="text-lg md:text-xl font-semibold pt-1">
-                  Compra de cartas de consórcio R$ 150.000,00
+                  Compra de cartas de consórcio R$ 300.000,00
                 </h4>
               </div>
               <p className="text-gray-600 md:pt-1 text-center md:text-start">

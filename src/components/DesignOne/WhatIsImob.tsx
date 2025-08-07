@@ -4,7 +4,7 @@ export default function WhatIsImob() {
   return (
     <section className="pt-12 px-4 bg-[#161616]">
       <div className="container mx-auto">
-        <h3 className="text-xl lg:text-3xl font-semibold mb-4 text-amber-500">
+        <h3 className="text-xl lg:text-3xl font-semibold mb-4 text-yellow-400">
           Alavancagem Patrimonial Imobiliária
         </h3>
         <p className="text-lg">

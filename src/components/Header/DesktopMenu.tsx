@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const DesktopMenu = () => {
   const menuItems = [
@@ -19,9 +20,9 @@ const DesktopMenu = () => {
           className="text-white text-3xl font-bold cursor-pointer"
           whileHover={{ scale: 1.05 }}
         >
-          <a href="#inicio">
+          <Link href="/#inicio">
             <Image src="/logo.png" width={200} height={200} alt="Logo da ax" />
-          </a>
+          </Link>
         </motion.div>
 
         {/* Menu Links */}

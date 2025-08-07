@@ -7,8 +7,8 @@ export default function CaseRoberto() {
         <div className="bg-zinc-900 rounded-xl p-6 shadow-xl">
           <p className="text-xl md:text-xl pb-12">
             Roberto Investiu em 1 cota de consórcio imobiliário de{" "}
-            <span className="text-yellow-400 font-medium">R$150mil</span>{" "}
-            pagando mensalmente R$ 1.092,07 cada.
+            <span className="text-yellow-400 font-medium">R$300mil</span>{" "}
+            pagando mensalmente R$ 2.249,96 cada.
           </p>
           <div className="grid md:grid-cols-3 gap-6 items-center">
             <div className="relative overflow-hidden rounded-lg border border-zinc-800">
@@ -43,7 +43,7 @@ export default function CaseRoberto() {
           <div className="flex items-center flex-col text-center pt-8">
             <p className="text-2xl text-white font-bold">Lucrou em 6 meses</p>
             <p className="text-3xl md:text-3xl text-yellow-400 font-bold">
-              R$66.347,50
+              R$59.400,24
             </p>
           </div>
         </div>

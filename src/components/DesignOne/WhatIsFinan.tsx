@@ -2,7 +2,7 @@ export default function WhatIsFinan() {
   return (
     <section className="pt-12 px-4">
       <div className="container mx-auto">
-        <h3 className="text-xl lg:text-3xl font-semibold mb-4 text-amber-500">
+        <h3 className="text-xl lg:text-3xl font-semibold mb-4 text-yellow-400">
           Alavancagem Patrimonial Financeira
         </h3>
         <p className="text-lg">
